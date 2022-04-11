@@ -1,0 +1,349 @@
+:root{
+    --pr-color : #bc9d48;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafaf8;
+}
+
+/* Navbar Style */
+.navbar{
+    z-index: 4;
+}
+
+/* Navbar Color*/
+.nav-color{
+    background-color: #89661a;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in 0.3s;
+}
+
+*{
+    z-index: 2;
+}
+
+.accsent-img {
+    z-index: 1;
+}
+
+.img-hero {
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.nav-link.active{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button-secondary{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(254, 253, 253);
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.button-primary{
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(160deg, var(--pr-color), #FFFFFF);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 90%;
+}
+
+.hero-tagline h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.hero-tagline p{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary{
+    width: 237px;
+    height: 70px;
+    background-color: #FFFFFF;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Layanan Section */
+#layanan{
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #000;
+}
+.card-layanan{
+width: 100%;
+height: 780px;
+border-radius: 5px;
+background-color: #FFFFFF;
+padding: 30px;
+box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0,05);
+transition: all .2s ease-in;
+
+    }
+
+    .circle-icon{
+        width: 116px;
+        height: 70px;
+        background-color: var(--pr-color);
+        border-radius: 50%;
+
+        transition: all .1s ease-in;
+    }
+
+    .card-layanan h3 {
+        color: var(--pr-color);
+        font-size: 40px;
+        transition: all .2s ease-in;
+    }
+
+    .card-layanan p {
+        color: #000;
+        font-size: 24px;
+        transition: all .3s ease-in;
+    }
+
+    /* Hover */
+    .card-layanan :hover{
+        width: 100%;
+        height: 650px;
+        border-radius: 5px;
+        background-color: rgb(151, 139, 10);
+        padding: 40px;
+        box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0,05);
+        transition: all .2s ease-in;
+            }
+
+            .card-layanan:hover .circle-icon{
+                background-color: #FFFFFF;
+                transition: all .2s ease-in;
+            }
+        
+
+        
+            .card-layanan h3 :hover {
+                color: #FFFFFF;
+                font-size: 40px;
+                transition: all .2s ease-in;
+        
+            }
+        
+            .card-layanan p :hover{
+                color: #FFFFFF;
+                font-size: 24px;
+                transition: all .2s ease-in;
+            }
+
+            /* Section Tim Layanan */
+            .card {
+                height: 100px;
+                width: 95%;
+                border: #fefefe;
+            }
+
+            .card body h4 {
+                color: #000;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: .8rem;
+
+            }
+
+            .card-body p {
+                color: #45454545;
+                font-weight: 400;
+                font-size: 14px;
+            }
+
+            .card:hover {
+                background: linear-gradient(150deg, var(--pr-color), #9e8245, #cbab66,#000);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+                transition: all ease-in-out .3s;
+            }
+
+            .card:hover.card-body h4 {
+                color: #FFFFFF;
+                transition: all ease-in-out .3s;
+            }
+.card:hover .card-body p {
+    color: #535903;
+    transition: all ease-in-out .3s;
+}
+
+/* Section Tentang Kami  */
+h3{
+    font-size: 35px;
+    font-weight: 500;
+    width: 292;
+   
+}
+
+#contact{
+    background-image: url(../Assets/img/Background\ Kontak.png);
+    margin-top: 158px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay{
+background: rgba(5, 0, 0, 0.05)
+}
+
+#contact .container{
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px ;
+    color: #000;
+    
+
+}
+
+.kontak h6{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+    margin: 19px 0 14px 0;
+ 
+}
+
+.kontak a{
+    font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 18px;
+color: rgb(12, 2, 88);
+text-decoration: none;
+margin-left: 18px;
+width: 400px;
+display: inline-block;
+}
+
+.card-contact{
+    width: 100%;
+    height: 500px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-contact h2{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: rgb(128, 62, 4);
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.form-control{
+    background: #c4c4c4;
+    height: 75px !important;
+    border-radius: o;
+
+}
+
+.form-floating  label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112 */
+    color: #625e5e;
+
+}
+
+.button-kontak{
+    width: 100%;
+    height: 75px;
+    background: #9e8245;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+footer{
+    width: auto;
+    height: 150px;
+    background: rgb(107, 87, 36);
+}
+
+.copyright {
+bottom:auto;
+color: #000;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+}
+
+footer a  {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
